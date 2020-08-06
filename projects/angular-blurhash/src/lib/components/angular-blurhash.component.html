@@ -1,0 +1,2 @@
+<canvas #canvas *ngIf="!resolve" [width]="width" [height]="height"></canvas>
+<img #img [hidden]="!resolve" [@fadeIn]="animationState" [width]="width" [height]="height">
